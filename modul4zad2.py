@@ -19,4 +19,17 @@ if operation == '3':
     result = a * b
     logging.info(f"Mnożę {a} i {b}")
 
+elif operation == '4':
+    if b == 0:
+        logging.error("Dzielenie przez zero!")
+    else:
+        result = a / b
+        logging.info(f"Dzielę {a} przez {b}")
+
+else:
+    logging.error("Niepoprawny wybór operacji.")
+
+
+
+
 
