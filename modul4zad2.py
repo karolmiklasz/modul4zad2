@@ -29,6 +29,8 @@ elif operation == '4':
 else:
     logging.error("Niepoprawny wybór operacji.")
 
+print(f"Wynik to {result}")
+
 
 
 
